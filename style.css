@@ -231,7 +231,6 @@ section .title span::after{
   bottom: 0;
 }
 section .title span::after{
-  bottom: -7px;
   width: 70%;
   left: 50%;
   transform: translateX(-50%);
