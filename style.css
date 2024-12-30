@@ -1,5 +1,5 @@
 /* Google Font CDN Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #4070f4;
+    background: #9d40f4;
 }
 /* navbar styling */
 nav{
@@ -31,10 +31,11 @@ nav{
   padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Merriweather Sans";
+
 }
 nav.sticky{
-  background: #4070f4;
+  background: #9d40f4;
   padding: 13px 0;
 }
 nav .navbar{
@@ -45,9 +46,9 @@ nav .navbar{
   margin: auto;
 }
 nav .navbar .logo a{
-  font-weight: 500;
-  font-size: 35px;
-  color: #4070f4;
+  font-weight: 700;
+  font-size: 50px;
+  color: #9d40f4;
 }
 nav.sticky .navbar .logo a{
   color: #fff;
@@ -68,7 +69,7 @@ nav .navbar .menu li{
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: #4070f4;
+  color: #9d40f4;
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -77,7 +78,7 @@ nav.sticky .menu a:hover{
   color: #0E2431;
 }
 .navbar .media-icons a{
-  color: #4070f4;
+  color: #9d40f4;
   font-size: 18px;
   margin: 0 6px;
 }
@@ -98,7 +99,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: #4070f4;
+  color: #9d40f4;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -116,7 +117,10 @@ nav.sticky .menu-btn{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Merriweather Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 }
 .home .home-content{
   width: 90%;
@@ -139,7 +143,7 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #4070f4;
+  color: #9d40f4;
 }
 .home .text-four{
   font-size: 23px;
@@ -155,16 +159,16 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #9d40f4;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .home .button button:hover{
-  border-color: #4070f4;
+  border-color: #9d40f4;
   background-color: #fff;
-  color: #4070f4;
+  color: #9d40f4;
 }
 /* button margin */
 .fcc-btn {
@@ -173,16 +177,16 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #9d40f4;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .fcc-btn:hover{
-  border-color: #4070f4;
+  border-color: #9d40f4;
   background-color: #fff;
-  color: #4070f4;
+  color: #9d40f4;
 }
 
 .home .fcc-btn{
@@ -223,7 +227,7 @@ section .title span::after{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #4070f4;
+  background: #9d40f4;
   left: 0;
   bottom: 0;
 }
@@ -264,16 +268,16 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #9d40f4;
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 section .button button:hover{
-  border-color: #4070f4;
+  border-color: #9d40f4;
   background-color: #fff;
-  color: #4070f4;
+  color: #9d40f4;
 }
 
  /* My Skills CSS */
@@ -323,11 +327,11 @@ section .button button:hover{
 }
 .skills-details .boxes .topic{
   font-size: 20px;
-  color: #4070f4;
+  color: #9d40f4;
 }
 .skills-details .boxes .per{
   font-size: 60px;
-  color: #4070f4;
+  color: #9d40f4;
 }
 
 /* My Services CSS */
@@ -347,13 +351,13 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
-  background: #4070f4;
+  background: #9d40f4;
   color: #fff;
 }
 .services .boxes .box .icon{
   height: 50px;
   width: 50px;
-  /* background: #4070f4; */
+  /* background: #9d40f4; */
   background: transparent;
   border-radius: 50%;
   text-align: center;
@@ -365,7 +369,7 @@ section .button button:hover{
 }
 .boxes .box:hover .icon{
   background-color: #fff;
-  color: #4070f4;
+  color: #9d40f4;
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
@@ -392,7 +396,7 @@ section .button button:hover{
 
 /* Footer CSS */
 footer{
-  background: #4070f4;
+  background: #9d40f4;
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -415,7 +419,7 @@ footer .text span a:hover{
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #9d40f4;
   padding: 7px 12px;;
   font-size: 18px;
   border-radius: 6px;
@@ -482,7 +486,7 @@ footer .text span a:hover{
     margin: 10px 0;
   }
   nav.sticky .menu a:hover{
-    color: #4070f4;
+    color: #9d40f4;
   }
   nav .navbar .media-icons{
     display: none;
@@ -529,6 +533,6 @@ footer .text span a:hover{
   }
   .skills-details .boxes .per{
     font-size: 50px;
-    color: #4070f4;
+    color: #9d40f4;
   }
 }
