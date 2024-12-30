@@ -113,12 +113,14 @@ nav.sticky .menu-btn{
   height: 100vh;
   width: 100%;
   /* background: url("https://github.com/Kapil987/contactKapil.github.io/blob/main/images/background.png") no-repeat; */
+  background: url("images/background.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  font-family: "Merriweather Sans";
   font-family: "Merriweather Sans", serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: <weight>;
   font-style: normal;
 }
 .home .home-content{
@@ -197,6 +199,7 @@ nav.sticky .menu-btn{
  I'm Selecting Directly 'Section Tag' and 'Class'  */
 section{
   padding-top: 80px;
+
 }
 section .content{
   width: 80%;
@@ -231,7 +234,6 @@ section .title span::after{
   bottom: 0;
 }
 section .title span::after{
-  bottom: -7px;
   width: 70%;
   left: 50%;
   transform: translateX(-50%);
@@ -467,8 +469,10 @@ footer .text span a:hover{
     left: -100%;
     top: 0;
     background: #0E2431;
+    height: 100vh;
     max-width: 400px;
     width: 100%;
+    padding-top: 60px;
     flex-direction: column;
     align-items: center;
     transition: all 0.5s ease;
