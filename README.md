@@ -11,6 +11,10 @@ Build infrastructure
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build
 
 
-GIT
+Exellent references
+
+https://github.com/onebeyond/rascal
+
+https://github.com/toa-io/comq
 
 
