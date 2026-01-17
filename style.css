@@ -200,19 +200,14 @@ nav.sticky .menu-btn{
 /* Those Elements Where We Have Apply Same CSS,
  I'm Selecting Directly 'Section Tag' and 'Class'  */
 section{
-  padding-top: 80px;
 
 }
 section .content{
-  width: 80%;
-  margin: 40px auto;
+  width: 26%;
+  margin: 60px auto;
   font-family: 'Poppins', sans-serif;
 }
-.about .about-details{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 section .title{
   display: flex;
   justify-content: center;
@@ -285,37 +280,37 @@ section .button button:hover{
 
  /* My Skills CSS */
  .skills{
-   background: #F0F8FF;
  }
  .skills .content{
    padding: 40px 0;
    padding-top: 0%;
  }
  .skills .skills-details{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+  align-items: left;
+
  }
- .skills-details .text{
-   width: 50%;
- }
+
  .skills-details p{
    color: #0E2431;
    text-align: justify;
  }
 .skills .skills-details .experience{
   display: flex;
-  align-items: center;
-  margin: 0 10px;
+  align-items: right;
+  margin:  10px 10px 10px;
 }
 .skills-details .experience .num{
   color: #0E2431;
-  font-size: 80px;
+  font-size: 90px;
+    margin:  15px 15px 15px;
+      font-weight: 3800;
+
+
 }
 .skills-details .experience .exp{
   color: #0E2431;
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   margin: 0 6px;
 }
@@ -327,7 +322,7 @@ section .button button:hover{
 }
 .skills-details .box{
   width: calc(100% / 2 - 20px);
-  margin: 20px 0;
+  margin: 40px 0;
 }
 .skills-details .boxes .topic{
   font-size: 20px;
